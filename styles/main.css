@@ -1,18 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    border: 5px solid steelblue;
+    box-shadow: 5px 5px 8px grey;
 }
 h1 {
   font-size: 300%;
+  margin-left: 15px;
+}
+header  {
+  border-bottom: 5px solid steelblue;
+  background-image: linear-gradient(white, lightsteelblue);
 }
 header h2 {
     font-size: 250%;
     color: steelblue;
     font-style: italic;
     text-shadow: 2px 2px 15px steelblue;
+    margin-top: 15px;
+    margin-left: 30px;
 }
 header h3 {
     font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 header img  {
@@ -23,6 +42,34 @@ header img  {
 
 section h2, section h3, aside h2 {
   font-size: 150%;
+  margin-left: 15px;
+}
+
+section h2  {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+section p {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section blockquote  {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 90%; 
+  color: navy;
+  border-left: 3px solid maroon;
+  padding: 5px;
+}
+
+ul  {
+  margin-left: 80px;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 /* links colors section */
@@ -78,9 +125,17 @@ li  {
   margin-top: 5px;
 }
 
+footer  {
+  background-color: steelblue;
+}
+
 footer p  {
   font-size: 75%;
   text-align: center;
+  color: white;
+  padding: 25px;
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 </style>
