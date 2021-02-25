@@ -12,8 +12,9 @@ body {
     box-shadow: 5px 5px 8px grey;
 }
 h1 {
-  font-size: 300%;
+  font-size: 200%;
   margin-left: 15px;
+  padding-top: 15px;
 }
 header  {
   border-bottom: 5px solid steelblue;
@@ -30,7 +31,7 @@ header h2 {
 header h3 {
     font-size: 150%;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     margin-left: 15px;
 }
 
@@ -38,6 +39,10 @@ header img  {
   float: left;
   margin-left: 10px;
   margin-right: 20px;
+}
+
+main  {
+  clear: both;
 }
 
 section h2, section h3, aside h2 {
@@ -66,10 +71,26 @@ section blockquote  {
   padding: 5px;
 }
 
+aside h2  {
+  color:maroon;
+}
+
 ul  {
   margin-left: 80px;
   margin-bottom: 15px;
   margin-top: 10px;
+}
+
+.homesection  {
+  width: 65%;
+  float: right;
+  margin-right: 10px;
+}
+
+.sidebar  {
+  float: left;
+  width: 30%;
+  padding-top: 40px;
 }
 
 /* links colors section */
@@ -127,6 +148,7 @@ li  {
 
 footer  {
   background-color: steelblue;
+  clear: both;
 }
 
 footer p  {
@@ -136,16 +158,7 @@ footer p  {
   padding: 25px;
   font-weight: bold;
   font-variant: small-caps;
+  
 }
 
-</style>
-</head>
-<body>
 
-<h2>CSS Links</h2>
-<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
-<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
-<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
-
-</body>
-</html>
